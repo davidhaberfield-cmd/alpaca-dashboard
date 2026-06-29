@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 100608.11,
+    "portfolio_value": 100596.02,
     "cash": 29059.45
   },
   "positions": [
@@ -9,10 +9,10 @@
       "sector": "Semis",
       "qty": 9.0,
       "avg_entry_price": 530.013333,
-      "current_price": 538.25,
-      "market_value": 4844.25,
-      "unrealized_pl": 74.130003,
-      "unrealized_plpc": 0.01554
+      "current_price": 538.2,
+      "market_value": 4843.8,
+      "unrealized_pl": 73.680003,
+      "unrealized_plpc": 0.01545
     },
     {
       "symbol": "ARKK",
@@ -59,10 +59,10 @@
       "sector": "Defence",
       "qty": 53.0,
       "avg_entry_price": 93.39,
-      "current_price": 98.21,
-      "market_value": 5205.13,
-      "unrealized_pl": 255.46,
-      "unrealized_plpc": 0.05161
+      "current_price": 98.05,
+      "market_value": 5196.65,
+      "unrealized_pl": 246.98,
+      "unrealized_plpc": 0.0499
     },
     {
       "symbol": "RXRX",
@@ -89,10 +89,10 @@
       "sector": "Semis",
       "qty": 8.0,
       "avg_entry_price": 595.39,
-      "current_price": 611.99,
-      "market_value": 4895.92,
-      "unrealized_pl": 132.8,
-      "unrealized_plpc": 0.02788
+      "current_price": 611.595,
+      "market_value": 4892.76,
+      "unrealized_pl": 129.64,
+      "unrealized_plpc": 0.02722
     },
     {
       "symbol": "VST",
@@ -112,7 +112,7 @@
   "history": [
     {
       "date": "2026-06-29",
-      "portfolio_value": 100608.11
+      "portfolio_value": 100596.02
     }
   ],
   "updated_at": "29 Jun 2026 21:30 BST"
