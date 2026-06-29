@@ -1,1 +1,119 @@
-{"positions": [], "account": {}, "cooldowns": {}, "history": [], "updated_at": "pending first run"}
+{
+  "account": {
+    "portfolio_value": 99496.47,
+    "cash": 29059.45
+  },
+  "positions": [
+    {
+      "symbol": "AMD",
+      "sector": "Semis",
+      "qty": 9.0,
+      "avg_entry_price": 530.013333,
+      "current_price": 508.0,
+      "market_value": 4572.0,
+      "unrealized_pl": -198.119997,
+      "unrealized_plpc": -0.04153
+    },
+    {
+      "symbol": "ARKK",
+      "sector": "ETF",
+      "qty": 124.0,
+      "avg_entry_price": 75.987661,
+      "current_price": 79.39,
+      "market_value": 9844.36,
+      "unrealized_pl": 421.890036,
+      "unrealized_plpc": 0.04477
+    },
+    {
+      "symbol": "ARM",
+      "sector": "Other",
+      "qty": 15.0,
+      "avg_entry_price": 329.55,
+      "current_price": 319.695,
+      "market_value": 4795.425,
+      "unrealized_pl": -147.825,
+      "unrealized_plpc": -0.0299
+    },
+    {
+      "symbol": "AXON",
+      "sector": "Defence",
+      "qty": 10.0,
+      "avg_entry_price": 501.0,
+      "current_price": 522.09,
+      "market_value": 5220.9,
+      "unrealized_pl": 210.9,
+      "unrealized_plpc": 0.0421
+    },
+    {
+      "symbol": "DDOG",
+      "sector": "AI/SW",
+      "qty": 42.0,
+      "avg_entry_price": 234.217143,
+      "current_price": 249.83,
+      "market_value": 10492.86,
+      "unrealized_pl": 655.739994,
+      "unrealized_plpc": 0.06666
+    },
+    {
+      "symbol": "RKLB",
+      "sector": "Defence",
+      "qty": 53.0,
+      "avg_entry_price": 93.39,
+      "current_price": 92.04,
+      "market_value": 4878.12,
+      "unrealized_pl": -71.55,
+      "unrealized_plpc": -0.01446
+    },
+    {
+      "symbol": "RXRX",
+      "sector": "Biotech",
+      "qty": 2844.0,
+      "avg_entry_price": 3.343351,
+      "current_price": 3.69,
+      "market_value": 10494.36,
+      "unrealized_pl": 985.869756,
+      "unrealized_plpc": 0.10368
+    },
+    {
+      "symbol": "SNOW",
+      "sector": "Cloud",
+      "qty": 42.0,
+      "avg_entry_price": 232.94619,
+      "current_price": 252.1975,
+      "market_value": 10592.295,
+      "unrealized_pl": 808.55502,
+      "unrealized_plpc": 0.08264
+    },
+    {
+      "symbol": "SOXX",
+      "sector": "Semis",
+      "qty": 8.0,
+      "avg_entry_price": 595.39,
+      "current_price": 586.535,
+      "market_value": 4692.28,
+      "unrealized_pl": -70.84,
+      "unrealized_plpc": -0.01487
+    },
+    {
+      "symbol": "VST",
+      "sector": "Energy",
+      "qty": 30.0,
+      "avg_entry_price": 165.09,
+      "current_price": 161.795,
+      "market_value": 4853.85,
+      "unrealized_pl": -98.85,
+      "unrealized_plpc": -0.01996
+    }
+  ],
+  "cooldowns": {
+    "SOXX": 7
+  },
+  "spy_total_return": null,
+  "history": [
+    {
+      "date": "2026-06-29",
+      "portfolio_value": 99496.47
+    }
+  ],
+  "updated_at": "29 Jun 2026 15:39 BST"
+}
