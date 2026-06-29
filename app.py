@@ -149,16 +149,7 @@ with left:
             "sl_display": "Stop-Loss", "sl_dist_display": "→ SL", "status": "Status"
         })
 
-        # Colour P&L % column
-        def colour_pl(val):
-            if "+" in str(val):
-                return "color: #00c853; font-weight: bold"
-            elif "-" in str(val):
-                return "color: #ff5252; font-weight: bold"
-            return ""
-
-        styled = display_df.style.map(colour_pl, subset=["P&L %", "P&L $"])
-        st.dataframe(styled, use_container_width=True, hide_index=True)
+        st.dataframe(display_df, use_container_width=True, hide_index=True)
     else:
         st.info("No open positions.")
 
