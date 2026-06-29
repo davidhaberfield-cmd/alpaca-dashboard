@@ -248,32 +248,79 @@ if history and len(history) >= 2:
     df_hist = pd.DataFrame(history)
     df_hist["date"] = pd.to_datetime(df_hist["date"])
     df_hist = df_hist.sort_values("date")
+    df_hist["pl_pct"] = (df_hist["portfolio_value"] - start_value) / start_value * 100
+    df_hist["colour"] = df_hist["portfolio_value"].apply(
+        lambda v: "#00c853" if v >= start_value else "#ff5252"
+    )
+    above_start = df_hist["portfolio_value"] >= start_value
+    line_colour = "#00c853" if df_hist["portfolio_value"].iloc[-1] >= start_value else "#ff5252"
 
     fig_hist = go.Figure()
+
+    # Shaded fill relative to $100k baseline
     fig_hist.add_trace(go.Scatter(
         x=df_hist["date"], y=df_hist["portfolio_value"],
-        mode="lines+markers", name="Portfolio",
-        line=dict(color="#00c853", width=2),
-        fill="tozeroy", fillcolor="rgba(0,200,83,0.08)",
+        mode="none", fill="tonexty",
+        fillcolor="rgba(0,200,83,0.08)",
+        showlegend=False, hoverinfo="skip",
     ))
-    fig_hist.add_hline(
-        y=start_value, line_dash="dash",
-        line_color="#888", annotation_text="$100k start",
-        annotation_position="bottom right",
+
+    # Baseline $100k reference line as trace for fill
+    fig_hist.add_trace(go.Scatter(
+        x=df_hist["date"],
+        y=[start_value] * len(df_hist),
+        mode="lines",
+        line=dict(color="#555", width=1, dash="dash"),
+        name="$100k start",
+        hoverinfo="skip",
+    ))
+
+    # Main portfolio line
+    fig_hist.add_trace(go.Scatter(
+        x=df_hist["date"],
+        y=df_hist["portfolio_value"],
+        mode="lines+markers",
+        name="Portfolio Value",
+        line=dict(color=line_colour, width=2.5),
+        marker=dict(size=6, color=line_colour),
+        hovertemplate="<b>%{x|%d %b %Y}</b><br>Value: $%{y:,.2f}<extra></extra>",
+    ))
+
+    # Annotate latest value
+    fig_hist.add_annotation(
+        x=df_hist["date"].iloc[-1],
+        y=df_hist["portfolio_value"].iloc[-1],
+        text=f"  ${df_hist['portfolio_value'].iloc[-1]:,.0f}",
+        showarrow=False,
+        font=dict(color=line_colour, size=12, family="monospace"),
+        xanchor="left",
     )
+
     fig_hist.update_layout(
-        height=280,
-        margin=dict(l=0, r=0, t=10, b=10),
+        height=320,
+        margin=dict(l=0, r=60, t=20, b=10),
         plot_bgcolor="#0e1117",
         paper_bgcolor="#0e1117",
         font_color="#fafafa",
-        xaxis=dict(gridcolor="#333"),
-        yaxis=dict(gridcolor="#333", tickprefix="$"),
-        legend=dict(orientation="h"),
+        xaxis=dict(gridcolor="#222", showgrid=True, tickformat="%d %b"),
+        yaxis=dict(
+            gridcolor="#222", showgrid=True,
+            tickprefix="$", tickformat=",.0f",
+            range=[
+                min(df_hist["portfolio_value"].min(), start_value) * 0.995,
+                max(df_hist["portfolio_value"].max(), start_value) * 1.005,
+            ]
+        ),
+        legend=dict(orientation="h", x=0, y=1.08),
+        hovermode="x unified",
     )
     st.plotly_chart(fig_hist, use_container_width=True)
 else:
-    st.info("Portfolio history will appear after a few daily reports have run.")
+    # Only one data point — show a single-day placeholder with the current value
+    if history:
+        st.info(f"📊 Portfolio value today: **${history[-1].get('portfolio_value', 0):,.2f}** · History chart will build up over the coming days as daily reports run.")
+    else:
+        st.info("Portfolio history will appear after a few daily reports have run.")
 
 # ── Stop-loss cooldowns ───────────────────────────────────────────────────────
 if cooldowns:
