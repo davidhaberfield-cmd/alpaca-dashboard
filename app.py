@@ -157,7 +157,7 @@ with left:
                 return "color: #ff5252; font-weight: bold"
             return ""
 
-        styled = display_df.style.applymap(colour_pl, subset=["P&L %", "P&L $"])
+        styled = display_df.style.map(colour_pl, subset=["P&L %", "P&L $"])
         st.dataframe(styled, use_container_width=True, hide_index=True)
     else:
         st.info("No open positions.")
