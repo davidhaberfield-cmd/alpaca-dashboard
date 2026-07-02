@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 102565.08,
+    "portfolio_value": 102202.95,
     "cash": 33882.59
   },
   "positions": [
@@ -9,104 +9,105 @@
       "sector": "Semis",
       "qty": 9.0,
       "avg_entry_price": 530.013333,
-      "current_price": 539.4,
-      "market_value": 4854.6,
-      "unrealized_pl": 84.480003,
-      "unrealized_plpc": 0.01771
+      "current_price": 519.01,
+      "market_value": 4671.09,
+      "unrealized_pl": -99.029997,
+      "unrealized_plpc": -0.02076
     },
     {
       "symbol": "ARKK",
       "sector": "ETF",
       "qty": 124.0,
       "avg_entry_price": 75.987661,
-      "current_price": 81.53,
-      "market_value": 10109.72,
-      "unrealized_pl": 687.250036,
-      "unrealized_plpc": 0.07294
+      "current_price": 81.4,
+      "market_value": 10093.6,
+      "unrealized_pl": 671.130036,
+      "unrealized_plpc": 0.07123
     },
     {
       "symbol": "ARM",
       "sector": "Semis",
       "qty": 15.0,
       "avg_entry_price": 329.55,
-      "current_price": 333.0,
-      "market_value": 4995.0,
-      "unrealized_pl": 51.75,
-      "unrealized_plpc": 0.01047
+      "current_price": 315.49,
+      "market_value": 4732.35,
+      "unrealized_pl": -210.9,
+      "unrealized_plpc": -0.04266
     },
     {
       "symbol": "AXON",
       "sector": "Defence",
       "qty": 10.0,
       "avg_entry_price": 501.0,
-      "current_price": 590.8635,
-      "market_value": 5908.635,
-      "unrealized_pl": 898.635,
-      "unrealized_plpc": 0.17937
+      "current_price": 595.99,
+      "market_value": 5959.9,
+      "unrealized_pl": 949.9,
+      "unrealized_plpc": 0.1896
     },
     {
       "symbol": "DDOG",
       "sector": "AI/SW",
       "qty": 42.0,
       "avg_entry_price": 234.217143,
-      "current_price": 265.22,
-      "market_value": 11139.24,
-      "unrealized_pl": 1302.119994,
-      "unrealized_plpc": 0.13237
+      "current_price": 259.89,
+      "market_value": 10915.38,
+      "unrealized_pl": 1078.259994,
+      "unrealized_plpc": 0.10961
     },
     {
       "symbol": "GOOGL",
       "sector": "Megacap",
       "qty": 7.0,
       "avg_entry_price": 351.788571,
-      "current_price": 360.9401,
-      "market_value": 2526.5807,
-      "unrealized_pl": 64.060703,
-      "unrealized_plpc": 0.02601
+      "current_price": 359.07,
+      "market_value": 2513.49,
+      "unrealized_pl": 50.970003,
+      "unrealized_plpc": 0.0207
     },
     {
       "symbol": "RKLB",
       "sector": "Defence",
       "qty": 53.0,
       "avg_entry_price": 93.39,
-      "current_price": 100.69,
-      "market_value": 5336.57,
-      "unrealized_pl": 386.9,
-      "unrealized_plpc": 0.07817
+      "current_price": 100.1118,
+      "market_value": 5305.9254,
+      "unrealized_pl": 356.2554,
+      "unrealized_plpc": 0.07198
     },
     {
       "symbol": "RXRX",
       "sector": "Biotech",
       "qty": 2844.0,
       "avg_entry_price": 3.343351,
-      "current_price": 3.6601,
-      "market_value": 10409.3244,
-      "unrealized_pl": 900.834156,
-      "unrealized_plpc": 0.09474
+      "current_price": 3.8097,
+      "market_value": 10834.7868,
+      "unrealized_pl": 1326.296556,
+      "unrealized_plpc": 0.13949
     },
     {
       "symbol": "SMH",
       "sector": "Semis",
       "qty": 4.0,
       "avg_entry_price": 640.1125,
-      "current_price": 618.71,
-      "market_value": 2474.84,
-      "unrealized_pl": -85.61,
-      "unrealized_plpc": -0.03344
+      "current_price": 592.62,
+      "market_value": 2370.48,
+      "unrealized_pl": -189.97,
+      "unrealized_plpc": -0.07419
     },
     {
       "symbol": "SNOW",
       "sector": "Cloud",
       "qty": 42.0,
       "avg_entry_price": 232.94619,
-      "current_price": 260.19,
-      "market_value": 10927.98,
-      "unrealized_pl": 1144.24002,
-      "unrealized_plpc": 0.11695
+      "current_price": 260.08,
+      "market_value": 10923.36,
+      "unrealized_pl": 1139.62002,
+      "unrealized_plpc": 0.11648
     }
   ],
   "cooldowns": {
-    "SOXX": 5
+    "SOXX": 4,
+    "SMH": 7
   },
   "spy_total_return": null,
   "history": [
@@ -121,7 +122,11 @@
     {
       "date": "2026-07-01",
       "portfolio_value": 102565.08
+    },
+    {
+      "date": "2026-07-02",
+      "portfolio_value": 102202.95
     }
   ],
-  "updated_at": "01 Jul 2026 21:30 BST"
+  "updated_at": "02 Jul 2026 21:30 BST"
 }
