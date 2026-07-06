@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 103154.27,
+    "portfolio_value": 103154.06,
     "cash": -73.24
   },
   "positions": [
@@ -99,10 +99,10 @@
       "sector": "Megacap",
       "qty": 7.0,
       "avg_entry_price": 391.51,
-      "current_price": 419.29,
-      "market_value": 2935.03,
-      "unrealized_pl": 194.46,
-      "unrealized_plpc": 0.07096
+      "current_price": 419.26,
+      "market_value": 2934.82,
+      "unrealized_pl": 194.25,
+      "unrealized_plpc": 0.07088
     }
   ],
   "cooldowns": {
@@ -132,7 +132,7 @@
     },
     {
       "date": "2026-07-06",
-      "portfolio_value": 103154.27
+      "portfolio_value": 103154.06
     }
   ],
   "updated_at": "06 Jul 2026 21:30 BST"
