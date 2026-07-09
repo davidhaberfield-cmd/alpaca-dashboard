@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 104306.27,
+    "portfolio_value": 104298.56,
     "cash": 72169.62
   },
   "positions": [
@@ -9,30 +9,30 @@
       "sector": "Megacap",
       "qty": 9.0,
       "avg_entry_price": 309.176667,
-      "current_price": 316.22,
-      "market_value": 2845.98,
-      "unrealized_pl": 63.389997,
-      "unrealized_plpc": 0.02278
+      "current_price": 315.83,
+      "market_value": 2842.47,
+      "unrealized_pl": 59.879997,
+      "unrealized_plpc": 0.02152
     },
     {
       "symbol": "AMD",
       "sector": "Semis",
       "qty": 2.0,
       "avg_entry_price": 514.0,
-      "current_price": 545.5101,
-      "market_value": 1091.0202,
-      "unrealized_pl": 63.0202,
-      "unrealized_plpc": 0.0613
+      "current_price": 545.6002,
+      "market_value": 1091.2004,
+      "unrealized_pl": 63.2004,
+      "unrealized_plpc": 0.06148
     },
     {
       "symbol": "ARM",
       "sector": "Semis",
       "qty": 4.0,
       "avg_entry_price": 308.41,
-      "current_price": 330.99,
-      "market_value": 1323.96,
-      "unrealized_pl": 90.32,
-      "unrealized_plpc": 0.07321
+      "current_price": 330.034,
+      "market_value": 1320.136,
+      "unrealized_pl": 86.496,
+      "unrealized_plpc": 0.07011
     },
     {
       "symbol": "DDOG",
@@ -59,10 +59,10 @@
       "sector": "Megacap",
       "qty": 3.0,
       "avg_entry_price": 367.84,
-      "current_price": 358.4913,
-      "market_value": 1075.4739,
-      "unrealized_pl": -28.0461,
-      "unrealized_plpc": -0.02542
+      "current_price": 358.47,
+      "market_value": 1075.41,
+      "unrealized_pl": -28.11,
+      "unrealized_plpc": -0.02547
     },
     {
       "symbol": "NET",
@@ -89,10 +89,10 @@
       "sector": "Energy",
       "qty": 8.0,
       "avg_entry_price": 157.13,
-      "current_price": 157.98,
-      "market_value": 1263.84,
-      "unrealized_pl": 6.8,
-      "unrealized_plpc": 0.00541
+      "current_price": 157.9176,
+      "market_value": 1263.3408,
+      "unrealized_pl": 6.3008,
+      "unrealized_plpc": 0.00501
     }
   ],
   "cooldowns": {
@@ -135,8 +135,8 @@
     },
     {
       "date": "2026-07-09",
-      "portfolio_value": 104306.27
+      "portfolio_value": 104298.56
     }
   ],
-  "updated_at": "09 Jul 2026 21:30 BST"
+  "updated_at": "09 Jul 2026 21:32 BST"
 }
