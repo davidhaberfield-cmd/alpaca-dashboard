@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 104298.56,
+    "portfolio_value": 104302.64,
     "cash": 72169.62
   },
   "positions": [
@@ -9,30 +9,30 @@
       "sector": "Megacap",
       "qty": 9.0,
       "avg_entry_price": 309.176667,
-      "current_price": 315.83,
-      "market_value": 2842.47,
-      "unrealized_pl": 59.879997,
-      "unrealized_plpc": 0.02152
+      "current_price": 315.81,
+      "market_value": 2842.29,
+      "unrealized_pl": 59.699997,
+      "unrealized_plpc": 0.02145
     },
     {
       "symbol": "AMD",
       "sector": "Semis",
       "qty": 2.0,
       "avg_entry_price": 514.0,
-      "current_price": 545.6002,
-      "market_value": 1091.2004,
-      "unrealized_pl": 63.2004,
-      "unrealized_plpc": 0.06148
+      "current_price": 545.65,
+      "market_value": 1091.3,
+      "unrealized_pl": 63.3,
+      "unrealized_plpc": 0.06158
     },
     {
       "symbol": "ARM",
       "sector": "Semis",
       "qty": 4.0,
       "avg_entry_price": 308.41,
-      "current_price": 330.034,
-      "market_value": 1320.136,
-      "unrealized_pl": 86.496,
-      "unrealized_plpc": 0.07011
+      "current_price": 330.97,
+      "market_value": 1323.88,
+      "unrealized_pl": 90.24,
+      "unrealized_plpc": 0.07315
     },
     {
       "symbol": "DDOG",
@@ -59,10 +59,10 @@
       "sector": "Megacap",
       "qty": 3.0,
       "avg_entry_price": 367.84,
-      "current_price": 358.47,
-      "market_value": 1075.41,
-      "unrealized_pl": -28.11,
-      "unrealized_plpc": -0.02547
+      "current_price": 358.61,
+      "market_value": 1075.83,
+      "unrealized_pl": -27.69,
+      "unrealized_plpc": -0.02509
     },
     {
       "symbol": "NET",
@@ -135,8 +135,8 @@
     },
     {
       "date": "2026-07-09",
-      "portfolio_value": 104298.56
+      "portfolio_value": 104302.64
     }
   ],
-  "updated_at": "09 Jul 2026 21:32 BST"
+  "updated_at": "09 Jul 2026 21:34 BST"
 }
