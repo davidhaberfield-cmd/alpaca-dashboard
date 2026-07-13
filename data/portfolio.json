@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 102554.58,
+    "portfolio_value": 102498.46,
     "cash": 4972.26
   },
   "positions": [
@@ -99,10 +99,10 @@
       "sector": "Energy",
       "qty": 61.0,
       "avg_entry_price": 158.92,
-      "current_price": 158.12,
-      "market_value": 9645.32,
-      "unrealized_pl": -48.8,
-      "unrealized_plpc": -0.00503
+      "current_price": 157.2,
+      "market_value": 9589.2,
+      "unrealized_pl": -104.92,
+      "unrealized_plpc": -0.01082
     }
   ],
   "cooldowns": {
@@ -155,7 +155,7 @@
     },
     {
       "date": "2026-07-13",
-      "portfolio_value": 102554.58
+      "portfolio_value": 102498.46
     }
   ],
   "updated_at": "13 Jul 2026 21:30 BST"
