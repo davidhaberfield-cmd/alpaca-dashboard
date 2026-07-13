@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 102712.14,
+    "portfolio_value": 102657.8,
     "cash": 14666.38
   },
   "positions": [
@@ -9,90 +9,90 @@
       "sector": "Megacap",
       "qty": 31.0,
       "avg_entry_price": 312.658387,
-      "current_price": 318.27,
-      "market_value": 9866.37,
-      "unrealized_pl": 173.960003,
-      "unrealized_plpc": 0.01795
+      "current_price": 319.02,
+      "market_value": 9889.62,
+      "unrealized_pl": 197.210003,
+      "unrealized_plpc": 0.02035
     },
     {
       "symbol": "AMD",
       "sector": "Semis",
       "qty": 18.0,
       "avg_entry_price": 545.644444,
-      "current_price": 536.185,
-      "market_value": 9651.33,
-      "unrealized_pl": -170.269992,
-      "unrealized_plpc": -0.01734
+      "current_price": 536.61,
+      "market_value": 9658.98,
+      "unrealized_pl": -162.619992,
+      "unrealized_plpc": -0.01656
     },
     {
       "symbol": "ARM",
       "sector": "Semis",
       "qty": 30.0,
       "avg_entry_price": 321.954667,
-      "current_price": 303.47,
-      "market_value": 9104.1,
-      "unrealized_pl": -554.54001,
-      "unrealized_plpc": -0.05741
+      "current_price": 304.0971,
+      "market_value": 9122.913,
+      "unrealized_pl": -535.72701,
+      "unrealized_plpc": -0.05547
     },
     {
       "symbol": "AXON",
       "sector": "Defence",
       "qty": 17.0,
       "avg_entry_price": 587.99,
-      "current_price": 568.11,
-      "market_value": 9657.87,
-      "unrealized_pl": -337.96,
-      "unrealized_plpc": -0.03381
+      "current_price": 565.3,
+      "market_value": 9610.1,
+      "unrealized_pl": -385.73,
+      "unrealized_plpc": -0.03859
     },
     {
       "symbol": "DDOG",
       "sector": "AI/SW",
       "qty": 42.0,
       "avg_entry_price": 234.217143,
-      "current_price": 255.36,
-      "market_value": 10725.12,
-      "unrealized_pl": 887.999994,
-      "unrealized_plpc": 0.09027
+      "current_price": 255.48,
+      "market_value": 10730.16,
+      "unrealized_pl": 893.039994,
+      "unrealized_plpc": 0.09078
     },
     {
       "symbol": "DXCM",
       "sector": "Biotech",
       "qty": 135.0,
       "avg_entry_price": 73.769259,
-      "current_price": 75.09,
-      "market_value": 10137.15,
-      "unrealized_pl": 178.300035,
-      "unrealized_plpc": 0.0179
+      "current_price": 74.84,
+      "market_value": 10103.4,
+      "unrealized_pl": 144.550035,
+      "unrealized_plpc": 0.01451
     },
     {
       "symbol": "GOOGL",
       "sector": "Megacap",
       "qty": 27.0,
       "avg_entry_price": 357.084444,
-      "current_price": 355.48,
-      "market_value": 9597.96,
-      "unrealized_pl": -43.319988,
-      "unrealized_plpc": -0.00449
+      "current_price": 354.5,
+      "market_value": 9571.5,
+      "unrealized_pl": -69.779988,
+      "unrealized_plpc": -0.00724
     },
     {
       "symbol": "PANW",
       "sector": "AI/SW",
       "qty": 29.0,
       "avg_entry_price": 339.53,
-      "current_price": 325.175,
-      "market_value": 9430.075,
-      "unrealized_pl": -416.295,
-      "unrealized_plpc": -0.04228
+      "current_price": 325.17,
+      "market_value": 9429.93,
+      "unrealized_pl": -416.44,
+      "unrealized_plpc": -0.04229
     },
     {
       "symbol": "SNOW",
       "sector": "Cloud",
       "qty": 37.0,
       "avg_entry_price": 274.508919,
-      "current_price": 266.615,
-      "market_value": 9864.755,
-      "unrealized_pl": -292.075003,
-      "unrealized_plpc": -0.02876
+      "current_price": 266.86,
+      "market_value": 9873.82,
+      "unrealized_pl": -283.010003,
+      "unrealized_plpc": -0.02786
     }
   ],
   "cooldowns": {
@@ -143,7 +143,7 @@
     },
     {
       "date": "2026-07-13",
-      "portfolio_value": 102712.14
+      "portfolio_value": 102657.8
     }
   ],
   "updated_at": "13 Jul 2026 14:30 BST"
