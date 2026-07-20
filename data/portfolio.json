@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 99465.76,
+    "portfolio_value": 99470.77,
     "cash": 2485.18
   },
   "positions": [
@@ -59,20 +59,20 @@
       "sector": "Other",
       "qty": 43.0,
       "avg_entry_price": 219.942093,
-      "current_price": 205.8313,
-      "market_value": 8850.7459,
-      "unrealized_pl": -606.764099,
-      "unrealized_plpc": -0.06416
+      "current_price": 206.0944,
+      "market_value": 8862.0592,
+      "unrealized_pl": -595.450799,
+      "unrealized_plpc": -0.06296
     },
     {
       "symbol": "META",
       "sector": "Megacap",
       "qty": 14.0,
       "avg_entry_price": 643.91,
-      "current_price": 645.6,
-      "market_value": 9038.4,
-      "unrealized_pl": 23.66,
-      "unrealized_plpc": 0.00262
+      "current_price": 645.15,
+      "market_value": 9032.1,
+      "unrealized_pl": 17.36,
+      "unrealized_plpc": 0.00193
     },
     {
       "symbol": "PANW",
@@ -174,7 +174,7 @@
     },
     {
       "date": "2026-07-20",
-      "portfolio_value": 99465.76
+      "portfolio_value": 99470.77
     }
   ],
   "updated_at": "20 Jul 2026 21:30 BST"
