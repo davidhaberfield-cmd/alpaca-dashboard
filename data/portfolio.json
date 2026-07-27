@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 95011.39,
+    "portfolio_value": 95016.66,
     "cash": 2057.85
   },
   "positions": [
@@ -9,10 +9,10 @@
       "sector": "Megacap",
       "qty": 27.0,
       "avg_entry_price": 336.593703,
-      "current_price": 336.56,
-      "market_value": 9087.12,
-      "unrealized_pl": -0.909981,
-      "unrealized_plpc": -0.0001
+      "current_price": 336.91,
+      "market_value": 9096.57,
+      "unrealized_pl": 8.540019,
+      "unrealized_plpc": 0.00094
     },
     {
       "symbol": "AMAT",
@@ -39,10 +39,10 @@
       "sector": "Megacap",
       "qty": 38.0,
       "avg_entry_price": 234.466317,
-      "current_price": 231.5,
-      "market_value": 8797.0,
-      "unrealized_pl": -112.720046,
-      "unrealized_plpc": -0.01265
+      "current_price": 231.39,
+      "market_value": 8792.82,
+      "unrealized_pl": -116.900046,
+      "unrealized_plpc": -0.01312
     },
     {
       "symbol": "AXON",
@@ -193,7 +193,7 @@
     },
     {
       "date": "2026-07-27",
-      "portfolio_value": 95011.39
+      "portfolio_value": 95016.66
     }
   ],
   "updated_at": "27 Jul 2026 21:30 BST"
