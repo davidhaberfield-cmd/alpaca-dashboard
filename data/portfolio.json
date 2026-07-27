@@ -1,7 +1,7 @@
 {
   "account": {
-    "portfolio_value": 95056.97,
-    "cash": 19276.82
+    "portfolio_value": 96373.5,
+    "cash": 19276.8
   },
   "positions": [
     {
@@ -9,87 +9,87 @@
       "sector": "Semis",
       "qty": 35.0,
       "avg_entry_price": 274.78,
-      "current_price": 260.01,
-      "market_value": 9100.35,
-      "unrealized_pl": -516.95,
-      "unrealized_plpc": -0.05375
+      "current_price": 262.68,
+      "market_value": 9193.8,
+      "unrealized_pl": -423.5,
+      "unrealized_plpc": -0.04404
     },
     {
       "symbol": "AXON",
       "sector": "Defence",
       "qty": 19.0,
       "avg_entry_price": 509.421053,
-      "current_price": 502.0,
-      "market_value": 9538.0,
-      "unrealized_pl": -141.000007,
-      "unrealized_plpc": -0.01457
+      "current_price": 521.15,
+      "market_value": 9901.85,
+      "unrealized_pl": 222.849993,
+      "unrealized_plpc": 0.02302
     },
     {
       "symbol": "DDOG",
       "sector": "AI/SW",
       "qty": 42.0,
       "avg_entry_price": 234.217143,
-      "current_price": 252.0,
-      "market_value": 10584.0,
-      "unrealized_pl": 746.879994,
-      "unrealized_plpc": 0.07592
+      "current_price": 256.23,
+      "market_value": 10761.66,
+      "unrealized_pl": 924.539994,
+      "unrealized_plpc": 0.09398
     },
     {
       "symbol": "DXCM",
       "sector": "Biotech",
       "qty": 135.0,
       "avg_entry_price": 73.769259,
-      "current_price": 71.54,
-      "market_value": 9657.9,
-      "unrealized_pl": -300.949965,
-      "unrealized_plpc": -0.03022
+      "current_price": 72.15,
+      "market_value": 9740.25,
+      "unrealized_pl": -218.599965,
+      "unrealized_plpc": -0.02195
     },
     {
       "symbol": "LRCX",
       "sector": "Other",
       "qty": 30.0,
       "avg_entry_price": 321.547333,
-      "current_price": 306.89,
-      "market_value": 9206.7,
-      "unrealized_pl": -439.71999,
-      "unrealized_plpc": -0.04558
+      "current_price": 303.36,
+      "market_value": 9100.8,
+      "unrealized_pl": -545.61999,
+      "unrealized_plpc": -0.05656
     },
     {
       "symbol": "PANW",
       "sector": "AI/SW",
       "qty": 29.0,
       "avg_entry_price": 339.53,
-      "current_price": 323.7,
-      "market_value": 9387.3,
-      "unrealized_pl": -459.07,
-      "unrealized_plpc": -0.04662
+      "current_price": 331.0,
+      "market_value": 9599.0,
+      "unrealized_pl": -247.37,
+      "unrealized_plpc": -0.02512
     },
     {
       "symbol": "RKLB",
       "sector": "Defence",
       "qty": 139.0,
       "avg_entry_price": 67.53,
-      "current_price": 64.2,
-      "market_value": 8923.8,
-      "unrealized_pl": -462.87,
-      "unrealized_plpc": -0.04931
+      "current_price": 65.23,
+      "market_value": 9066.97,
+      "unrealized_pl": -319.7,
+      "unrealized_plpc": -0.03406
     },
     {
       "symbol": "SNOW",
       "sector": "Cloud",
       "qty": 35.0,
       "avg_entry_price": 272.810286,
-      "current_price": 268.06,
-      "market_value": 9382.1,
-      "unrealized_pl": -166.26001,
-      "unrealized_plpc": -0.01741
+      "current_price": 277.58,
+      "market_value": 9715.3,
+      "unrealized_pl": 166.93999,
+      "unrealized_plpc": 0.01748
     }
   ],
   "cooldowns": {
-    "ARM": 7,
-    "KLAC": 3,
-    "GOOGL": 6,
-    "META": 6
+    "ARM": 4,
+    "GOOGL": 3,
+    "META": 3,
+    "LRCX": 7
   },
   "spy_total_return": null,
   "history": [
@@ -168,7 +168,11 @@
     {
       "date": "2026-07-24",
       "portfolio_value": 95056.97
+    },
+    {
+      "date": "2026-07-27",
+      "portfolio_value": 96373.5
     }
   ],
-  "updated_at": "24 Jul 2026 21:30 BST"
+  "updated_at": "27 Jul 2026 14:30 BST"
 }
