@@ -1,95 +1,117 @@
 {
   "account": {
-    "portfolio_value": 96107.61,
-    "cash": 19276.8
+    "portfolio_value": 95011.39,
+    "cash": 2057.85
   },
   "positions": [
     {
-      "symbol": "ARM",
+      "symbol": "AAPL",
+      "sector": "Megacap",
+      "qty": 27.0,
+      "avg_entry_price": 336.593703,
+      "current_price": 336.56,
+      "market_value": 9087.12,
+      "unrealized_pl": -0.909981,
+      "unrealized_plpc": -0.0001
+    },
+    {
+      "symbol": "AMAT",
+      "sector": "Other",
+      "qty": 16.0,
+      "avg_entry_price": 538.75,
+      "current_price": 514.0,
+      "market_value": 8224.0,
+      "unrealized_pl": -396.0,
+      "unrealized_plpc": -0.04594
+    },
+    {
+      "symbol": "AMD",
       "sector": "Semis",
-      "qty": 35.0,
-      "avg_entry_price": 274.78,
-      "current_price": 261.085,
-      "market_value": 9137.975,
-      "unrealized_pl": -479.325,
-      "unrealized_plpc": -0.04984
+      "qty": 17.0,
+      "avg_entry_price": 522.228824,
+      "current_price": 494.28,
+      "market_value": 8402.76,
+      "unrealized_pl": -475.130008,
+      "unrealized_plpc": -0.05352
+    },
+    {
+      "symbol": "AMZN",
+      "sector": "Megacap",
+      "qty": 38.0,
+      "avg_entry_price": 234.466317,
+      "current_price": 231.5,
+      "market_value": 8797.0,
+      "unrealized_pl": -112.720046,
+      "unrealized_plpc": -0.01265
     },
     {
       "symbol": "AXON",
       "sector": "Defence",
       "qty": 19.0,
       "avg_entry_price": 509.421053,
-      "current_price": 519.34,
-      "market_value": 9867.46,
-      "unrealized_pl": 188.459993,
-      "unrealized_plpc": 0.01947
+      "current_price": 532.95,
+      "market_value": 10126.05,
+      "unrealized_pl": 447.049993,
+      "unrealized_plpc": 0.04619
     },
     {
       "symbol": "DDOG",
       "sector": "AI/SW",
       "qty": 42.0,
       "avg_entry_price": 234.217143,
-      "current_price": 254.76,
-      "market_value": 10699.92,
-      "unrealized_pl": 862.799994,
-      "unrealized_plpc": 0.08771
+      "current_price": 251.88,
+      "market_value": 10578.96,
+      "unrealized_pl": 741.839994,
+      "unrealized_plpc": 0.07541
     },
     {
       "symbol": "DXCM",
       "sector": "Biotech",
       "qty": 135.0,
       "avg_entry_price": 73.769259,
-      "current_price": 72.125,
-      "market_value": 9736.875,
-      "unrealized_pl": -221.974965,
-      "unrealized_plpc": -0.02229
+      "current_price": 73.37,
+      "market_value": 9904.95,
+      "unrealized_pl": -53.899965,
+      "unrealized_plpc": -0.00541
     },
     {
-      "symbol": "LRCX",
-      "sector": "Other",
-      "qty": 30.0,
-      "avg_entry_price": 321.547333,
-      "current_price": 303.75,
-      "market_value": 9112.5,
-      "unrealized_pl": -533.91999,
-      "unrealized_plpc": -0.05535
+      "symbol": "MELI",
+      "sector": "Emerging",
+      "qty": 5.0,
+      "avg_entry_price": 1834.158,
+      "current_price": 1820.0,
+      "market_value": 9100.0,
+      "unrealized_pl": -70.79,
+      "unrealized_plpc": -0.00772
     },
     {
       "symbol": "PANW",
       "sector": "AI/SW",
       "qty": 29.0,
       "avg_entry_price": 339.53,
-      "current_price": 328.91,
-      "market_value": 9538.39,
-      "unrealized_pl": -307.98,
-      "unrealized_plpc": -0.03128
-    },
-    {
-      "symbol": "RKLB",
-      "sector": "Defence",
-      "qty": 139.0,
-      "avg_entry_price": 67.53,
-      "current_price": 64.975,
-      "market_value": 9031.525,
-      "unrealized_pl": -355.145,
-      "unrealized_plpc": -0.03784
+      "current_price": 317.1,
+      "market_value": 9195.9,
+      "unrealized_pl": -650.47,
+      "unrealized_plpc": -0.06606
     },
     {
       "symbol": "SNOW",
       "sector": "Cloud",
       "qty": 35.0,
       "avg_entry_price": 272.810286,
-      "current_price": 276.74,
-      "market_value": 9685.9,
-      "unrealized_pl": 137.53999,
-      "unrealized_plpc": 0.0144
+      "current_price": 272.48,
+      "market_value": 9536.8,
+      "unrealized_pl": -11.56001,
+      "unrealized_plpc": -0.00121
     }
   ],
   "cooldowns": {
     "ARM": 4,
+    "AMD": 7,
     "GOOGL": 3,
     "META": 3,
-    "LRCX": 7
+    "LRCX": 7,
+    "PANW": 7
   },
   "spy_total_return": null,
   "history": [
@@ -171,8 +193,8 @@
     },
     {
       "date": "2026-07-27",
-      "portfolio_value": 96107.61
+      "portfolio_value": 95011.39
     }
   ],
-  "updated_at": "27 Jul 2026 14:30 BST"
+  "updated_at": "27 Jul 2026 21:30 BST"
 }
