@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 100802.14,
+    "portfolio_value": 100888.33,
     "cash": 19342.72
   },
   "positions": [
@@ -9,70 +9,70 @@
       "sector": "Megacap",
       "qty": 38.0,
       "avg_entry_price": 234.466316,
-      "current_price": 277.98,
-      "market_value": 10563.24,
-      "unrealized_pl": 1653.519992,
-      "unrealized_plpc": 0.18559
+      "current_price": 277.58,
+      "market_value": 10548.04,
+      "unrealized_pl": 1638.319992,
+      "unrealized_plpc": 0.18388
     },
     {
       "symbol": "CRWD",
       "sector": "AI/SW",
       "qty": 50.0,
       "avg_entry_price": 181.14,
-      "current_price": 226.065,
-      "market_value": 11303.25,
-      "unrealized_pl": 2246.25,
-      "unrealized_plpc": 0.24801
+      "current_price": 224.756,
+      "market_value": 11237.8,
+      "unrealized_pl": 2180.8,
+      "unrealized_plpc": 0.24079
     },
     {
       "symbol": "DXCM",
       "sector": "Biotech",
       "qty": 135.0,
       "avg_entry_price": 73.769259,
-      "current_price": 87.7,
-      "market_value": 11839.5,
-      "unrealized_pl": 1880.650035,
-      "unrealized_plpc": 0.18884
+      "current_price": 87.73,
+      "market_value": 11843.55,
+      "unrealized_pl": 1884.700035,
+      "unrealized_plpc": 0.18925
     },
     {
       "symbol": "NVDA",
       "sector": "Semis",
       "qty": 52.0,
       "avg_entry_price": 223.480962,
-      "current_price": 217.82,
-      "market_value": 11326.64,
-      "unrealized_pl": -294.370024,
-      "unrealized_plpc": -0.02533
+      "current_price": 218.5137,
+      "market_value": 11362.7124,
+      "unrealized_pl": -258.297624,
+      "unrealized_plpc": -0.02223
     },
     {
       "symbol": "PANW",
       "sector": "AI/SW",
       "qty": 32.0,
       "avg_entry_price": 372.36,
-      "current_price": 383.37,
-      "market_value": 12267.84,
-      "unrealized_pl": 352.32,
-      "unrealized_plpc": 0.02957
+      "current_price": 385.0,
+      "market_value": 12320.0,
+      "unrealized_pl": 404.48,
+      "unrealized_plpc": 0.03395
     },
     {
       "symbol": "SHOP",
       "sector": "Cloud",
       "qty": 78.0,
       "avg_entry_price": 151.23,
-      "current_price": 154.085,
-      "market_value": 12018.63,
-      "unrealized_pl": 222.69,
-      "unrealized_plpc": 0.01888
+      "current_price": 155.0226,
+      "market_value": 12091.7628,
+      "unrealized_pl": 295.8228,
+      "unrealized_plpc": 0.02508
     },
     {
       "symbol": "UBER",
       "sector": "Other",
       "qty": 156.0,
       "avg_entry_price": 77.243013,
-      "current_price": 77.83,
-      "market_value": 12141.48,
-      "unrealized_pl": 91.569972,
-      "unrealized_plpc": 0.0076
+      "current_price": 77.8696,
+      "market_value": 12147.6576,
+      "unrealized_pl": 97.747572,
+      "unrealized_plpc": 0.00811
     }
   ],
   "cooldowns": {},
@@ -184,8 +184,8 @@
     },
     {
       "date": "2026-08-10",
-      "portfolio_value": 100802.14
+      "portfolio_value": 100888.33
     }
   ],
-  "updated_at": "10 Aug 2026 17:34 BST"
+  "updated_at": "10 Aug 2026 21:31 BST"
 }
