@@ -1,6 +1,6 @@
 {
   "account": {
-    "portfolio_value": 97785.08,
+    "portfolio_value": 97409.38,
     "cash": 17195.43
   },
   "positions": [
@@ -9,90 +9,90 @@
       "sector": "Energy",
       "qty": 40.0,
       "avg_entry_price": 289.5,
-      "current_price": 289.34,
-      "market_value": 11573.6,
-      "unrealized_pl": -6.4,
-      "unrealized_plpc": -0.00055
+      "current_price": 298.35,
+      "market_value": 11934.0,
+      "unrealized_pl": 354.0,
+      "unrealized_plpc": 0.03057
     },
     {
       "symbol": "COIN",
       "sector": "Other",
       "qty": 62.0,
       "avg_entry_price": 185.29,
-      "current_price": 185.23,
-      "market_value": 11484.26,
-      "unrealized_pl": -3.72,
-      "unrealized_plpc": -0.00032
+      "current_price": 184.7,
+      "market_value": 11451.4,
+      "unrealized_pl": -36.58,
+      "unrealized_plpc": -0.00318
     },
     {
       "symbol": "DUOL",
       "sector": "Other",
       "qty": 75.0,
       "avg_entry_price": 155.06,
-      "current_price": 154.5,
-      "market_value": 11587.5,
-      "unrealized_pl": -42.0,
-      "unrealized_plpc": -0.00361
+      "current_price": 154.0,
+      "market_value": 11550.0,
+      "unrealized_pl": -79.5,
+      "unrealized_plpc": -0.00684
     },
     {
       "symbol": "MELI",
       "sector": "Emerging",
       "qty": 5.0,
       "avg_entry_price": 1998.08,
-      "current_price": 1998.0799,
-      "market_value": 9990.3995,
-      "unrealized_pl": -0.0005,
-      "unrealized_plpc": 0.0
+      "current_price": 1970.02,
+      "market_value": 9850.1,
+      "unrealized_pl": -140.3,
+      "unrealized_plpc": -0.01404
     },
     {
       "symbol": "MSFT",
       "sector": "Megacap",
       "qty": 23.0,
       "avg_entry_price": 503.25,
-      "current_price": 503.03,
-      "market_value": 11569.69,
-      "unrealized_pl": -5.06,
-      "unrealized_plpc": -0.00044
+      "current_price": 499.51,
+      "market_value": 11488.73,
+      "unrealized_pl": -86.02,
+      "unrealized_plpc": -0.00743
     },
     {
       "symbol": "NOW",
       "sector": "AI/SW",
       "qty": 81.0,
       "avg_entry_price": 141.91,
-      "current_price": 141.66,
-      "market_value": 11474.46,
-      "unrealized_pl": -20.25,
-      "unrealized_plpc": -0.00176
+      "current_price": 141.15,
+      "market_value": 11433.15,
+      "unrealized_pl": -61.56,
+      "unrealized_plpc": -0.00536
     },
     {
       "symbol": "NVDA",
       "sector": "Semis",
       "qty": 52.0,
       "avg_entry_price": 223.480962,
-      "current_price": 233.5228,
-      "market_value": 12143.1856,
-      "unrealized_pl": 522.175576,
-      "unrealized_plpc": 0.04493
+      "current_price": 229.98,
+      "market_value": 11958.96,
+      "unrealized_pl": 337.949976,
+      "unrealized_plpc": 0.02908
     },
     {
       "symbol": "PANW",
       "sector": "AI/SW",
       "qty": -32.0,
       "avg_entry_price": 333.27,
-      "current_price": 333.81,
-      "market_value": -10681.92,
-      "unrealized_pl": -17.28,
-      "unrealized_plpc": -0.00162
+      "current_price": 332.4381,
+      "market_value": -10638.0192,
+      "unrealized_pl": 26.6208,
+      "unrealized_plpc": 0.0025
     },
     {
       "symbol": "SNOW",
       "sector": "Cloud",
       "qty": 33.0,
       "avg_entry_price": 346.92,
-      "current_price": 346.74,
-      "market_value": 11442.42,
-      "unrealized_pl": -5.94,
-      "unrealized_plpc": -0.00052
+      "current_price": 338.9586,
+      "market_value": 11185.6338,
+      "unrealized_pl": -262.7262,
+      "unrealized_plpc": -0.02295
     }
   ],
   "cooldowns": {
@@ -222,8 +222,8 @@
     },
     {
       "date": "2026-09-04",
-      "portfolio_value": 97785.08
+      "portfolio_value": 97409.38
     }
   ],
-  "updated_at": "04 Sep 2026 15:14 BST"
+  "updated_at": "04 Sep 2026 21:30 BST"
 }
