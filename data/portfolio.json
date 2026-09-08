@@ -1,7 +1,7 @@
 {
   "account": {
-    "portfolio_value": 97452.6,
-    "cash": 17193.72
+    "portfolio_value": 94874.76,
+    "cash": 16977.73
   },
   "positions": [
     {
@@ -9,94 +9,94 @@
       "sector": "Energy",
       "qty": 40.0,
       "avg_entry_price": 289.5,
-      "current_price": 298.96,
-      "market_value": 11958.4,
-      "unrealized_pl": 378.4,
-      "unrealized_plpc": 0.03268
+      "current_price": 299.05,
+      "market_value": 11962.0,
+      "unrealized_pl": 382.0,
+      "unrealized_plpc": 0.03299
     },
     {
       "symbol": "COIN",
       "sector": "Other",
       "qty": 62.0,
       "avg_entry_price": 185.29,
-      "current_price": 184.64,
-      "market_value": 11447.68,
-      "unrealized_pl": -40.3,
-      "unrealized_plpc": -0.00351
+      "current_price": 178.9,
+      "market_value": 11091.8,
+      "unrealized_pl": -396.18,
+      "unrealized_plpc": -0.03449
     },
     {
       "symbol": "DUOL",
       "sector": "Other",
       "qty": 75.0,
       "avg_entry_price": 155.06,
-      "current_price": 154.46,
-      "market_value": 11584.5,
-      "unrealized_pl": -45.0,
-      "unrealized_plpc": -0.00387
+      "current_price": 147.0,
+      "market_value": 11025.0,
+      "unrealized_pl": -604.5,
+      "unrealized_plpc": -0.05198
+    },
+    {
+      "symbol": "DXCM",
+      "sector": "Biotech",
+      "qty": 131.0,
+      "avg_entry_price": 86.405649,
+      "current_price": 84.2969,
+      "market_value": 11042.8939,
+      "unrealized_pl": -276.246119,
+      "unrealized_plpc": -0.02441
     },
     {
       "symbol": "MELI",
       "sector": "Emerging",
       "qty": 5.0,
       "avg_entry_price": 1998.08,
-      "current_price": 1978.36,
-      "market_value": 9891.8,
-      "unrealized_pl": -98.6,
-      "unrealized_plpc": -0.00987
+      "current_price": 1925.01,
+      "market_value": 9625.05,
+      "unrealized_pl": -365.35,
+      "unrealized_plpc": -0.03657
     },
     {
       "symbol": "MSFT",
       "sector": "Megacap",
       "qty": 23.0,
       "avg_entry_price": 503.25,
-      "current_price": 499.7,
-      "market_value": 11493.1,
-      "unrealized_pl": -81.65,
-      "unrealized_plpc": -0.00705
+      "current_price": 493.6,
+      "market_value": 11352.8,
+      "unrealized_pl": -221.95,
+      "unrealized_plpc": -0.01918
     },
     {
       "symbol": "NOW",
       "sector": "AI/SW",
       "qty": 81.0,
       "avg_entry_price": 141.91,
-      "current_price": 141.26,
-      "market_value": 11442.06,
-      "unrealized_pl": -52.65,
-      "unrealized_plpc": -0.00458
+      "current_price": 133.9768,
+      "market_value": 10852.1208,
+      "unrealized_pl": -642.5892,
+      "unrealized_plpc": -0.0559
     },
     {
       "symbol": "NVDA",
       "sector": "Semis",
       "qty": 52.0,
       "avg_entry_price": 223.480962,
-      "current_price": 230.36,
-      "market_value": 11978.72,
-      "unrealized_pl": 357.709976,
-      "unrealized_plpc": 0.03078
+      "current_price": 225.5525,
+      "market_value": 11728.73,
+      "unrealized_pl": 107.719976,
+      "unrealized_plpc": 0.00927
     },
     {
       "symbol": "PANW",
       "sector": "AI/SW",
       "qty": -32.0,
       "avg_entry_price": 333.27,
-      "current_price": 333.26,
-      "market_value": -10664.32,
-      "unrealized_pl": 0.32,
-      "unrealized_plpc": 3e-05
-    },
-    {
-      "symbol": "SNOW",
-      "sector": "Cloud",
-      "qty": 33.0,
-      "avg_entry_price": 346.92,
-      "current_price": 337.18,
-      "market_value": 11126.94,
-      "unrealized_pl": -321.42,
-      "unrealized_plpc": -0.02808
+      "current_price": 336.98,
+      "market_value": -10783.36,
+      "unrealized_pl": -118.72,
+      "unrealized_plpc": -0.01113
     }
   ],
   "cooldowns": {
-    "PANW": 4
+    "PANW": 3
   },
   "spy_total_return": null,
   "history": [
@@ -227,7 +227,11 @@
     {
       "date": "2026-09-07",
       "portfolio_value": 97452.6
+    },
+    {
+      "date": "2026-09-08",
+      "portfolio_value": 94874.76
     }
   ],
-  "updated_at": "07 Sep 2026 21:30 BST"
+  "updated_at": "08 Sep 2026 21:30 BST"
 }
