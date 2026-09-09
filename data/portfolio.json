@@ -1,98 +1,88 @@
 {
   "account": {
-    "portfolio_value": 94943.68,
-    "cash": 16977.48
+    "portfolio_value": 94162.42,
+    "cash": 4519.73
   },
   "positions": [
     {
-      "symbol": "CEG",
-      "sector": "Energy",
-      "qty": 40.0,
-      "avg_entry_price": 289.5,
-      "current_price": 297.0,
-      "market_value": 11880.0,
-      "unrealized_pl": 300.0,
-      "unrealized_plpc": 0.02591
+      "symbol": "AMD",
+      "sector": "Semis",
+      "qty": 21.0,
+      "avg_entry_price": 516.29,
+      "current_price": 516.0526,
+      "market_value": 10837.1046,
+      "unrealized_pl": -4.9854,
+      "unrealized_plpc": -0.00046
     },
     {
-      "symbol": "COIN",
-      "sector": "Other",
-      "qty": 62.0,
-      "avg_entry_price": 185.29,
-      "current_price": 182.22,
-      "market_value": 11297.64,
-      "unrealized_pl": -190.34,
-      "unrealized_plpc": -0.01657
+      "symbol": "CRWD",
+      "sector": "AI/SW",
+      "qty": 53.0,
+      "avg_entry_price": 211.25,
+      "current_price": 211.33,
+      "market_value": 11200.49,
+      "unrealized_pl": 4.24,
+      "unrealized_plpc": 0.00038
     },
     {
       "symbol": "DUOL",
       "sector": "Other",
-      "qty": 75.0,
-      "avg_entry_price": 155.06,
-      "current_price": 146.25,
-      "market_value": 10968.75,
-      "unrealized_pl": -660.75,
-      "unrealized_plpc": -0.05682
+      "qty": 78.0,
+      "avg_entry_price": 143.47,
+      "current_price": 143.23,
+      "market_value": 11171.94,
+      "unrealized_pl": -18.72,
+      "unrealized_plpc": -0.00167
     },
     {
       "symbol": "DXCM",
       "sector": "Biotech",
-      "qty": 131.0,
-      "avg_entry_price": 86.405649,
-      "current_price": 84.3,
-      "market_value": 11043.3,
-      "unrealized_pl": -275.840019,
-      "unrealized_plpc": -0.02437
-    },
-    {
-      "symbol": "MELI",
-      "sector": "Emerging",
-      "qty": 5.0,
-      "avg_entry_price": 1998.08,
-      "current_price": 1910.5497,
-      "market_value": 9552.7485,
-      "unrealized_pl": -437.6515,
-      "unrealized_plpc": -0.04381
+      "qty": 134.0,
+      "avg_entry_price": 83.31,
+      "current_price": 83.36,
+      "market_value": 11170.24,
+      "unrealized_pl": 6.7,
+      "unrealized_plpc": 0.0006
     },
     {
       "symbol": "MSFT",
       "sector": "Megacap",
       "qty": 23.0,
       "avg_entry_price": 503.25,
-      "current_price": 493.66,
-      "market_value": 11354.18,
-      "unrealized_pl": -220.57,
-      "unrealized_plpc": -0.01906
+      "current_price": 493.29,
+      "market_value": 11345.67,
+      "unrealized_pl": -229.08,
+      "unrealized_plpc": -0.01979
     },
     {
-      "symbol": "NOW",
+      "symbol": "NET",
       "sector": "AI/SW",
-      "qty": 81.0,
-      "avg_entry_price": 141.91,
-      "current_price": 135.33,
-      "market_value": 10961.73,
-      "unrealized_pl": -532.98,
-      "unrealized_plpc": -0.04637
+      "qty": 37.0,
+      "avg_entry_price": 299.79,
+      "current_price": 299.345,
+      "market_value": 11075.765,
+      "unrealized_pl": -16.465,
+      "unrealized_plpc": -0.00148
     },
     {
       "symbol": "NVDA",
       "sector": "Semis",
       "qty": 52.0,
       "avg_entry_price": 223.480962,
-      "current_price": 224.5787,
-      "market_value": 11678.0924,
-      "unrealized_pl": 57.082376,
-      "unrealized_plpc": 0.00491
+      "current_price": 225.795,
+      "market_value": 11741.34,
+      "unrealized_pl": 120.329976,
+      "unrealized_plpc": 0.01035
     },
     {
-      "symbol": "PANW",
-      "sector": "AI/SW",
-      "qty": -32.0,
-      "avg_entry_price": 333.27,
-      "current_price": 336.57,
-      "market_value": -10770.24,
-      "unrealized_pl": -105.6,
-      "unrealized_plpc": -0.0099
+      "symbol": "SNOW",
+      "sector": "Cloud",
+      "qty": 33.0,
+      "avg_entry_price": 335.99,
+      "current_price": 336.36,
+      "market_value": 11099.88,
+      "unrealized_pl": 12.21,
+      "unrealized_plpc": 0.0011
     }
   ],
   "cooldowns": {
@@ -234,8 +224,8 @@
     },
     {
       "date": "2026-09-09",
-      "portfolio_value": 94943.68
+      "portfolio_value": 94162.42
     }
   ],
-  "updated_at": "09 Sep 2026 13:37 BST"
+  "updated_at": "09 Sep 2026 14:40 BST"
 }
